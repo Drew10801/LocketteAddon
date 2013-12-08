@@ -1,0 +1,9 @@
+name: LocketteAddon
+main: me.drew1080.locketteaddon.LocketteAddon
+version: 2.4.2
+Author: Drew1080
+depend: [Vault, Lockette]
+commands:
+    locketteaddon:
+        description: ShowsCommands for LocketteAddon
+        usage: /<command> <reload,about,help>

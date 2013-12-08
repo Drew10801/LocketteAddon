@@ -1,0 +1,41 @@
+#=================[LocketteAddon]=================#
+#  This is the main config for defining messages  #
+#  If you mess this config up just delete it then #
+#  restart your server and it will generate a new #
+#  one.                                           #
+#  If the comments disappear in this file just     #
+#  delete it and they will appear again           #
+#  Notes: %container_cost% will be replaced with #
+#  the cost that it takes to buy or lock a        #
+#  container                                      #
+#  %player_balance% will be replace with the      #
+#  players balance                                #
+#=================================================#
+
+# This is the message sent to the player when making a container sell-able. If they don't enter a price.
+# %container_cost% & %player_balance% can not be used here
+no_price_found: '&6[&cLocketteAddon&6]&c Error: You have to enter a price'
+
+#This message will be sent to the player when they try to lock a container and don't have enough money
+# %container_cost% & %player_balance% can be used here
+not_enough_money: '&6[&cLocketteAddon&6]&c Sorry you need %container_cost% dollars to lock this container but you have %player_balance% dollars'
+
+#This message will be sent to the player when they successfully create a container, the price will be deducted from their accounts
+#%container_ptice% can be used here, but %player_balance% can not
+success_protect_container: '&6[&cLocketteAddon&6]&a You successfully protected this container for %container_cost% dollars'
+
+#This is the message sent to the player when they buy a container from someone else
+#Both %container_cost% & %player_balance% can be used here
+success_buy_container: '&6[&cLocketteAddon&6]&a You successfully brought this container for %container_cost% dollars'
+
+#This is the message sent to the player when the successfully make a container that can be sold
+# %container_cost% & %player_balance% can not be used here
+success_sellable_chest: '&6[&cLocketteAddon&6]&a You successfully made a container that can be sold'
+
+#This is the message sent to a player when they try to buy one of their own containers
+# %container_cost% & %player_balance% can not be used here
+your_container: '&6[&cLocketteAddon&6]&c Error: This is your container, so you can not buy it'
+
+#This is the message sent to the player if they don't have enough money when they try to buy a container
+# %container_cost% & %player_balance% can be used here
+not_enough_money_to_buy_container: '&6[&cLocketteAddon&6]&c Sorry this container costs %container_cost% dollars to buy and you have %player_balance% dollars'
